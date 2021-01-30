@@ -1,0 +1,23 @@
+.Container {
+  display: grid;
+  grid-template-rows: 3.5rem calc(100vh - 8.5rem) 5rem;
+  grid-template-areas:  "header"
+                        "main"
+                        "footer";
+  text-align: center;
+  background-image: linear-gradient(#722ed1,#10239e);
+}
+
+.Header {
+  grid-area: header;
+  background-color: #282c34;
+  color: white;
+}
+
+.Main {
+  grid-area: main;
+}
+
+.Footer {
+  grid-area: footer;
+}

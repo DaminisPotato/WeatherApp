@@ -1,14 +1,8 @@
-import classes from './App.module.scss';
+import Dashboard from './containers/Dashboard/Dashboard';
 
-function App() {
+const App = () => {
   return (
-    <div className={classes.App}>
-      <header>
-        <p>
-          A weather app.
-        </p>
-      </header>
-    </div>
+      <Dashboard />
   );
 }
 
