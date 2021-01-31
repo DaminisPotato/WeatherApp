@@ -1,0 +1,22 @@
+.NaviItem {
+  margin: 0.8rem 0rem;
+  display: block;
+  width: 100%;
+  font-size: 1.5rem;
+
+  a {
+    color: #c2268e;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+
+    &:hover,
+    &:active,
+    &.active {
+      color: #40A4C8;
+      // background-color: rgba(194, 38, 142, 0.2);
+    }
+  }
+
+}

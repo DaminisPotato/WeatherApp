@@ -1,0 +1,41 @@
+.Wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0.2rem 0.6rem;
+  &:hover {
+    cursor: pointer;
+  }
+  
+  h1{
+    margin: 0 0.4rem;
+    font-family: 'Dancing Script', cursive;
+    @media (max-width: 481px){
+      display: none;
+    }
+  }
+}
+
+.Logo {
+  display: inline-block;
+  vertical-align: middle;
+  height: 80%;
+  :hover {
+    cursor: pointer;
+    animation: spin 5s linear infinite;
+  }
+  img {
+    height: 100%;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+

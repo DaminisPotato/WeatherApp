@@ -1,16 +1,16 @@
 import React from 'react';
 import classes from './Wave.module.scss';
 
-// This component is from: 
-//  https://www.youtube.com/channel/UCbzuhNm5RWDRnS1Yyx-ybzg
+// This component is modified from: 
+//  https://www.youtube.com/watch?v=MMNEEdGa5eE
 
 const wave = () => {
   return (
     <div className={classes.Container}>
-      <div className={[classes.Wave, classes.Wave1].join(" ")}></div>
-      <div className={[classes.Wave, classes.Wave2].join(" ")}></div>
-      <div className={[classes.Wave, classes.Wave3].join(" ")}></div>
-      <div className={[classes.Wave, classes.Wave4].join(" ")}></div>
+      <div className={classes.Wave1}></div>
+      <div className={classes.Wave2}></div>
+      <div className={classes.Wave3}></div>
+      <div className={classes.Wave4}></div>
     </div>
   )
 }
