@@ -1,15 +1,15 @@
 .Wrapper {
   height: 100%;
+  max-width: 10rem;
   display: flex;
   align-items: center;
-  text-align: center;
   padding: 0.2rem 0.6rem;
   &:hover {
     cursor: pointer;
   }
   
   h1{
-    margin: 0 0.4rem;
+    padding: 0 0.4rem;
     font-family: 'Dancing Script', cursive;
     @media (max-width: 481px){
       display: none;
