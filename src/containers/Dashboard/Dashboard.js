@@ -1,6 +1,7 @@
 import React from 'react';
 import DateDisplay from '../../components/DateDisplay/DateDisplay';
 import Sidebar from '../../components/Sidebar/Sidebar';
+import Card from '../../components/UI/Card/Card';
 import Wave from '../../components/Wave/Wave';
 import classes from './Dashboard.module.scss';
 
@@ -12,7 +13,7 @@ const Dashboard = () => {
         <DateDisplay />
       </header>
       <main className={classes.Main}>
-        <p>Main Area</p>
+        <Card />
       </main>
       <footer className={classes.Footer}>
         <Wave />

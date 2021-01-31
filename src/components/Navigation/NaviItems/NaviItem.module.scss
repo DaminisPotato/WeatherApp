@@ -5,7 +5,9 @@
   font-size: 1.5rem;
 
   a {
-    color: #c2268e;
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    color: #722ed1;
     text-decoration: none;
     width: 100%;
     display: block;
@@ -14,7 +16,7 @@
     &:hover,
     &:active,
     &.active {
-      color: #40A4C8;
+      color: #ffa902;
       // background-color: rgba(194, 38, 142, 0.2);
     }
   }

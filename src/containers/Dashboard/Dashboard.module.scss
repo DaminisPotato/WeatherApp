@@ -10,14 +10,18 @@
 .Header {
   width: 100%;
   grid-area: header;
-  background-color: #282c34;
+  background-color: #22075e;
   color: white;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .Main {
   grid-area: main;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Footer {
