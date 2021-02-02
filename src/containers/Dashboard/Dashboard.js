@@ -1,8 +1,8 @@
 import React from 'react';
+import Wave from '../../components/Animation/Wave/Wave';
 import DateDisplay from '../../components/DateDisplay/DateDisplay';
 import Sidebar from '../../components/Sidebar/Sidebar';
 import Card from '../../components/UI/Card/Card';
-import Wave from '../../components/Wave/Wave';
 import classes from './Dashboard.module.scss';
 
 const Dashboard = () => {

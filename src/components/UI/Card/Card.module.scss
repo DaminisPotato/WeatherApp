@@ -2,11 +2,11 @@
   width: 92%;
   height: 96%;
   margin: 0;
-  padding: 1.5rem;
   background-color: white;
   opacity: 0.9;
   border-radius: 1rem;
   box-shadow: 5px 5px 10px rgba(0,0,0, 0.4);
+  overflow: hidden;
   
   @media (min-width:480px) {
     width: 80%;
@@ -21,6 +21,7 @@
     width: 100%;
     @media (min-width:480px) {
       height: 50%;
+      // position: relative;
     }
   }
 }
@@ -30,5 +31,6 @@
 }
 
 .BottomWrapper {
+  padding: 1.5rem;
   height: auto;
 }

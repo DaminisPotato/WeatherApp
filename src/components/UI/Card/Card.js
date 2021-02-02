@@ -1,10 +1,12 @@
 import React from 'react';
+import SunMoon from '../../Animation/SunMoon/SunMoon';
 import classes from './Card.module.scss';
 
 const card = (props) => {
   return(
     <section className={classes.Card}>
       <section className={classes.UpperWrapper}>
+        <SunMoon />
         <div>
           <div>Temp</div>
           <div>
