@@ -3,9 +3,10 @@ $color-accent: white;
 .Icon {
   position: relative;
   display: inline-block;
-  width: 12em;
-  height: 10em;
+  width: 9em;
+  height: 7.5em;
   font-size: 1em; /* control icon size here */
+  transform: scale(0.5);
 }
 
 .Cloud {

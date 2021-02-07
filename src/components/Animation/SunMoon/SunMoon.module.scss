@@ -1,15 +1,19 @@
 .Container {
-  margin: 0 auto;
-  background-color: #151843;
-  overflow:hidden;
-  // padding-top: 3rem;
-  opacity: 0.9;
-  * {
-    box-sizing: content-box;
+  display: none;
+  @media (min-width: 481px) {
+    margin: 0 auto;
+    background-color: #151843;
+    overflow:hidden;
+    // padding-top: 3rem;
+    opacity: 0.9;
+    * {
+      box-sizing: content-box;
+    }
+    z-index: 5;
+    position: relative;
+    height: 100%;
+  
   }
-  z-index: 5;
-  position: relative;
-  height: 100%;
 }
 
 .Wrapper {

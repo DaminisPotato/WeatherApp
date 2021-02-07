@@ -39,7 +39,7 @@ const SunMoon = (props) => {
         <div className={[classes.Star, classes.PosStar2].join(' ')}></div>
         <div className={[classes.Star, classes.PosStar3].join(' ')}></div>
       </div>
-      <Clouds/>
+      {props.clear === 'Clear' ? null : <Clouds/>}
     </div>
   )
 }
