@@ -11,8 +11,8 @@ const DateDisplay = () => {
   }, [date])
   return (
     <div className={classes.DateDisplay}>
-      <h3>{date.toLocaleDateString()}</h3>
-      <h3>{date.toLocaleTimeString()}</h3>
+      <h2>{date.toLocaleDateString()}</h2>
+      <h2>{date.toLocaleTimeString()}</h2>
     </div>
   )
 }

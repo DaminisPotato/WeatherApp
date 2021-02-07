@@ -1,11 +1,13 @@
 .DateDisplay {
   align-self: center;
-  h3 {
+  padding: 0 0.5rem;
+  h2 {
+    font-family: 'Dancing Script', cursive;
     display: inline-block;
     padding: 0 0.2rem;
   }
   @media (max-width: 481px) {
-    h3:first-child {
+    h2:first-child {
       display: none;
     }
   }

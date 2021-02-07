@@ -23,3 +23,9 @@ yarn-debug.log*
 yarn-error.log*
 
 *.eslintcache
+.eslintrc
+src/assets/images/backup/cloud1.png
+src/assets/images/backup/cloud2.png
+src/assets/images/backup/cloud3.png
+src/assets/images/backup/cloud4.png
+src/assets/images/backup/cloud5.png
